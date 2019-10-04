@@ -14,3 +14,6 @@ build
 npm-debug.log
 .idea
 __pycache__
+Lib
+Include
+Scripts
