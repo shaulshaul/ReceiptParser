@@ -58,7 +58,8 @@ class App extends PureComponent {
     reader.readAsDataURL(blob); 
     reader.onloadend = function() {
         var base64audio = reader.result;
-        fetch('http://172.20.1.130:5000/upload', {
+        //fetch('http://172.20.1.130:5000/upload', {
+        fetch('http://192.168.1.15:5000/upload', {
     // content-type header should not be specified!
             method: 'POST',
             body: base64audio,

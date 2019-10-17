@@ -34,7 +34,7 @@ def ocr_core(base64_string):
     image = im
 
     # If need to perform rotation:
-    rotation = True
+    rotation = False
     if rotation:
     # Edit the image to make it more readable
         rotated_image = rotate(im)
